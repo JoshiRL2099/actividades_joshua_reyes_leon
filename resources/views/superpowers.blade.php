@@ -27,38 +27,37 @@
                     </tr>
                     <tr>    
                         <td>4</td>
-                        <td>Telepathy</td>
-                        <td>Ability to read and communicate through thoughts.</td>
+                        <td>Web Slinging</td>
+                        <td>Produces and uses webbing for swinging, trapping, and mobility.</td>
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>Telekinesis</td>
-                        <td>Ability to move objects with the mind.</td>
+                        <td>Regeneration</td>
+                        <td>Rapid healing from injuries and recovery from damage.</td>
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>Super Speed</td>
-                        <td>Ability to move at speeds far beyond normal human capabilities.</td>
+                        <td>Energy Manipulation</td>
+                        <td>Control or projection of energy (blasts, beams, force fields).</td>
                     </tr>
                     <tr>
                         <td>7</td>
-                        <td>Shape Shifting</td>
-                        <td>Ability to change physical form and appearance.</td>
+                        <td>Telekinesis</td>
+                        <td>Move or manipulate objects using the mind.</td>
                     </tr>
                     <tr>
                         <td>8</td>
-                        <td>Regeneration</td>
-                        <td>Ability to heal rapidly from injuries.</td>
+                        <td>Martial Arts Mastery</td>
+                        <td>Exceptional combat training, technique, and tactics.</td>
                     </tr>
                     <tr>
                         <td>9</td>
-                        <td>Energy Projection</td>
-                        <td>Ability to generate and manipulate energy for offensive or defensive purposes.</td>
+                        <td>Enhanced Agility</td>
+                        <td>Superior reflexes, balance, coordination, and speed.</td>
                     </tr>
-                    tr>
                         <td>10</td>
-                        <td>Time Manipulation</td>
-                        <td>Ability to control or alter the flow of time.</td>
+                        <td>Super Intelligence</td>
+                        <td>Highly advanced intellect, strategy, and problem solving.</td>
                 </tbody>
             </table>
             
