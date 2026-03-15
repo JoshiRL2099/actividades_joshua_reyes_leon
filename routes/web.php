@@ -3,7 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Models\Superhero;
 use App\Models\Universe;
+use App\Http\Controllers\UniverseController;
+use App\Http\Controllers\SuperheroController;
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
@@ -26,6 +29,7 @@ Route::get('/superpowers', function () {
 |--------------------------------------------------------------------------
 */
 
+/*
 // CREATE Universe
 Route::get('/universes/create', function () {
     $universe = Universe::create([
@@ -84,7 +88,7 @@ Route::get('/superheroes/create', function () {
         'superhero' => $superhero
     ]);
 });
-
+/*
 // READ Superhero with universe relation
 Route::get('/superheroes/read/{id}', function ($id) {
     $superhero = Superhero::with('universe')->find($id);
@@ -107,3 +111,17 @@ Route::get('/superheroes/update/{id}', function ($id) {
         'superhero' => $superhero
     ]);
 });
+*/
+
+Route::get('/', function () {
+    $superhero=Superhero::where('gender', 'male')->get();
+    return response()->json([
+        'superheroes' => $superhero
+    ]);
+});
+
+
+//Route::get('/universes', [UniverseController::class, 'index']);
+
+Route::resource('universes', UniverseController::class);
+Route::resource('superheroes', SuperheroController::class);
