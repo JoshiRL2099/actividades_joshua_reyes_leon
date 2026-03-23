@@ -26,6 +26,9 @@
                         <td>{{ $superhero->real_name }}</td>
                         <td>{{ $superhero->gender }}</td>
                         <td>{{ $superhero->universe->universe }}</td>
+                        <td>
+                            <a href="{{ route('superheroes.show', $superhero->id) }}">View</a>
+                        </td>
                     </tr>
                 @endforeach
             </tbody>
